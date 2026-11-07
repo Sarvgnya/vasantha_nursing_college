@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="100%" height="100%">
+  <g transform="translate(10, 10)">
+    <circle cx="18" cy="18" r="17" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1.5"/>
+    <path d="M 18 8 C 24 12 25 18 20 23 C 17 26 13 25 15 20 C 16 18 18 15 18 8 Z" fill="#0284c7"/>
+    <circle cx="21" cy="13" r="2.5" fill="#f59e0b"/>
+  </g>
+  <text x="52" y="29" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#0f172a" letter-spacing="0.5">KRISHNA</text>
+  <text x="53" y="46" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" fill="#0284c7" letter-spacing="2">HOSPITAL</text>
+</svg>
+

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="100%" height="100%">
+  <g transform="translate(10, 10)">
+    <circle cx="18" cy="18" r="17" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+    <path d="M 18 7 C 23 13 25 18 21 24 C 18 28 12 28 15 20 C 16 18 18 15 18 7 Z" fill="#ea580c"/>
+    <path d="M 18 14 C 20 18 21 21 19 24 C 17 26 14 26 16 21 Z" fill="#facc15"/>
+  </g>
+  <text x="52" y="29" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#0f172a" letter-spacing="0.5">VINAYAK</text>
+  <text x="53" y="46" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" fill="#ea580c" letter-spacing="2">HOSPITAL</text>
+</svg>
+

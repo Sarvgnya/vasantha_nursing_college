@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 780" width="100%" height="100%">
+  <defs>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <filter id="sheetShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="-8" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.3"/>
+    </filter>
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="btnGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be123c"/>
+      <stop offset="100%" stop-color="#881337"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="420" height="780" fill="#f1f5f9"/>
+
+  <!-- Option Title Header -->
+  <text x="210" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#be123c" text-anchor="middle" letter-spacing="1">OPTION 3</text>
+  <text x="210" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="middle">1-Tap Interactive Bottom Sheet / Modal</text>
+
+  <!-- Phone Mockup Body -->
+  <rect x="22" y="70" width="376" height="690" rx="36" fill="#ffffff" stroke="#1e293b" stroke-width="8" filter="url(#shadow3)"/>
+
+  <!-- Phone Speaker Notch -->
+  <rect x="150" y="74" width="120" height="16" rx="8" fill="#1e293b"/>
+  <circle cx="170" cy="82" r="3" fill="#334155"/>
+  <rect x="185" y="80" width="50" height="4" rx="2" fill="#334155"/>
+
+  <!-- Dimmed Page Background Under Bottom Sheet -->
+  <rect x="26" y="98" width="368" height="654" fill="#0f172a" opacity="0.45"/>
+
+  <!-- ==================== TRIGGER BAR (VISIBLE WHEN SHEET CLOSED) ==================== -->
+  <g transform="translate(38, 120)">
+    <rect x="0" y="0" width="344" height="46" rx="12" fill="url(#pillGrad)" stroke="#fbbf24"/>
+    <text x="14" y="28" font-family="sans-serif" font-size="16">🌟</text>
+    <text x="38" y="22" font-family="sans-serif" font-size="11" font-weight="900" fill="#451a03">Education for Everyone</text>
+    <text x="38" y="36" font-family="sans-serif" font-size="9" font-weight="700" fill="#78350f">SC/ST &amp; Rural Financial Aid Available</text>
+    <rect x="260" y="10" width="74" height="26" rx="13" fill="#ffffff"/>
+    <text x="297" y="27" font-family="sans-serif" font-size="9.5" font-weight="800" fill="#92400e" text-anchor="middle">View Aid ➔</text>
+  </g>
+
+  <!-- ==================== OPEN BOTTOM SHEET DRAWER ==================== -->
+  <g transform="translate(26, 210)">
+    <!-- Sheet Body -->
+    <rect x="0" y="0" width="368" height="536" rx="28" fill="#ffffff" filter="url(#sheetShadow)"/>
+
+    <!-- Drag Handle -->
+    <rect x="160" y="10" width="48" height="4" rx="2" fill="#cbd5e1"/>
+
+    <!-- Sheet Header -->
+    <g transform="translate(20, 26)">
+      <rect x="0" y="0" width="160" height="20" rx="10" fill="#fef3c7"/>
+      <text x="80" y="14" font-family="sans-serif" font-size="8.5" font-weight="800" fill="#92400e" text-anchor="middle">★ INSTITUTIONAL COMMITMENT</text>
+      <text x="328" y="15" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="end">✕ Close</text>
+
+      <!-- Headline -->
+      <text x="0" y="44" font-family="sans-serif" font-size="15" font-weight="900" fill="#0f172a">Education for Everyone.</text>
+      <text x="0" y="62" font-family="sans-serif" font-size="15" font-weight="900" fill="#be123c">Your Dreams Deserve a Chance.</text>
+
+      <!-- Scrollable Text Content -->
+      <g transform="translate(0, 78)">
+        <text x="0" y="12" font-family="sans-serif" font-size="10.5" font-weight="500" fill="#334155">Financial difficulties should never stop a deserving</text>
+        <text x="0" y="28" font-family="sans-serif" font-size="10.5" font-weight="500" fill="#334155">student from pursuing higher education. <tspan font-weight="800" fill="#0f172a">Vasantha</tspan></text>
+        <text x="0" y="44" font-family="sans-serif" font-size="10.5" font-weight="800" fill="#0f172a">Group of Education is committed to making quality</text>
+        <text x="0" y="60" font-family="sans-serif" font-size="10.5" font-weight="800" fill="#0f172a">education accessible and affordable for students</text>
+        <text x="0" y="76" font-family="sans-serif" font-size="10.5" font-weight="500" fill="#334155">from SC/ST communities and tribal &amp; rural backgrounds.</text>
+
+        <text x="0" y="104" font-family="sans-serif" font-size="10.5" font-weight="500" fill="#334155">Our mission is to help students overcome financial</text>
+        <text x="0" y="120" font-family="sans-serif" font-size="10.5" font-weight="500" fill="#334155">challenges through low-cost education, clinical bedside</text>
+        <text x="0" y="136" font-family="sans-serif" font-size="10.5" font-weight="500" fill="#334155">training at Oxylife Hospital, and 100% placement guidance.</text>
+
+        <!-- Quote Block -->
+        <rect x="0" y="154" width="328" height="56" rx="8" fill="#fff7ed" stroke="#fed7aa"/>
+        <rect x="0" y="154" width="4" height="56" rx="2" fill="#ea580c"/>
+        <text x="12" y="174" font-family="sans-serif" font-size="9.5" font-weight="700" font-style="italic" fill="#9a3412">“We don't want financial difficulties to end a</text>
+        <text x="12" y="188" font-family="sans-serif" font-size="9.5" font-weight="700" font-style="italic" fill="#9a3412">student's dreams. Affordable education is the</text>
+        <text x="12" y="202" font-family="sans-serif" font-size="9.5" font-weight="700" font-style="italic" fill="#9a3412">beginning of their success story.”</text>
+      </g>
+
+      <!-- Two Action Buttons -->
+      <g transform="translate(0, 370)">
+        <rect x="0" y="0" width="160" height="42" rx="12" fill="url(#btnGrad3)"/>
+        <text x="80" y="26" font-family="sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">Enquire for Aid ➔</text>
+
+        <rect x="168" y="0" width="160" height="42" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+        <text x="248" y="26" font-family="sans-serif" font-size="11" font-weight="800" fill="#0f172a" text-anchor="middle">📞 Call 9512592211</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Phone Home Bar -->
+  <rect x="150" y="746" width="120" height="4" rx="2" fill="#94a3b8"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="100%" height="100%">
+  <!-- Hamdard Laboratories (Hapja) Logo -->
+  <g transform="translate(10, 8)">
+    <circle cx="22" cy="22" r="18" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+    <!-- Crescent & Herbal Leaf -->
+    <path d="M 27 12 C 16 12 12 21 16 30 C 19 33 24 33 28 31 C 21 31 18 24 21 18 C 23 15 26 13 27 12 Z" fill="#15803d"/>
+    <circle cx="27" cy="18" r="3.5" fill="#ca8a04"/>
+  </g>
+  <text x="56" y="27" font-family="'Georgia', serif" font-size="19" font-weight="900" fill="#166534" letter-spacing="0.2">Hamdard</text>
+  <text x="57" y="44" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#15803d" letter-spacing="1.2">LABORATORIES</text>
+</svg>
+

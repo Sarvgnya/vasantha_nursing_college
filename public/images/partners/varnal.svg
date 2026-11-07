@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="100%" height="100%">
+  <g transform="translate(10, 10)">
+    <circle cx="18" cy="18" r="17" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.5"/>
+    <path d="M 18 10 L 26 14 L 26 22 L 18 26 L 10 22 L 10 14 Z" stroke="#7e22ce" stroke-width="2" fill="#f3e8ff"/>
+    <path d="M 18 13 V 23 M 13 18 H 23" stroke="#7e22ce" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <text x="52" y="29" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#0f172a" letter-spacing="0.5">VARNAL</text>
+  <text x="53" y="46" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" fill="#7e22ce" letter-spacing="2">HOSPITAL</text>
+</svg>
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="100%" height="100%">
+  <g transform="translate(10, 10)">
+    <circle cx="18" cy="18" r="17" fill="#fdf4ff" stroke="#f0abfc" stroke-width="1.5"/>
+    <path d="M 9 24 A 12 12 0 0 1 27 24" stroke="#ec4899" stroke-width="2.5" fill="none"/>
+    <path d="M 12 24 A 8 8 0 0 1 24 24" stroke="#8b5cf6" stroke-width="2.5" fill="none"/>
+    <path d="M 15 24 A 4 4 0 0 1 21 24" stroke="#06b6d4" stroke-width="2.5" fill="none"/>
+    <circle cx="18" cy="24" r="1.5" fill="#f59e0b"/>
+  </g>
+  <text x="52" y="29" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#0f172a" letter-spacing="0.5">RAINBOW</text>
+  <text x="53" y="46" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" fill="#a855f7" letter-spacing="2">HOSPITAL</text>
+</svg>
+

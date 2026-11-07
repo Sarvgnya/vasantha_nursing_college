@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 780" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="60%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be123c"/>
+      <stop offset="100%" stop-color="#881337"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="420" height="780" fill="#f1f5f9"/>
+
+  <!-- Option Title Header -->
+  <text x="210" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#be123c" text-anchor="middle" letter-spacing="1">OPTION 1 (RECOMMENDED)</text>
+  <text x="210" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="middle">Top-of-Fold Hero Reassurance Card</text>
+
+  <!-- Phone Mockup Body -->
+  <rect x="22" y="70" width="376" height="690" rx="36" fill="#ffffff" stroke="#1e293b" stroke-width="8" filter="url(#shadow)"/>
+
+  <!-- Phone Speaker Notch -->
+  <rect x="150" y="74" width="120" height="16" rx="8" fill="#1e293b"/>
+  <circle cx="170" cy="82" r="3" fill="#334155"/>
+  <rect x="185" y="80" width="50" height="4" rx="2" fill="#334155"/>
+
+  <!-- Top Announcement Bar -->
+  <rect x="26" y="98" width="368" height="24" fill="#0f172a"/>
+  <text x="38" y="114" font-family="sans-serif" font-size="10" font-weight="700" fill="#fbbf24">ESTD. 1984</text>
+  <text x="382" y="114" font-family="sans-serif" font-size="10" font-weight="600" fill="#e2e8f0" text-anchor="end">Helpline: 9512592211</text>
+
+  <!-- Mobile Header Navbar -->
+  <rect x="26" y="122" width="368" height="46" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="50" cy="145" r="14" fill="#fee2e2"/>
+  <text x="50" y="150" font-family="sans-serif" font-size="13" font-weight="900" fill="#be123c" text-anchor="middle">V</text>
+  <text x="72" y="141" font-family="sans-serif" font-size="11" font-weight="800" fill="#0f172a">VASANTHA GROUP</text>
+  <text x="72" y="153" font-family="sans-serif" font-size="9" font-weight="600" fill="#be123c">Faculty of Health Sciences</text>
+  <rect x="306" y="134" width="46" height="22" rx="11" fill="#be123c"/>
+  <text x="329" y="149" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">Apply</text>
+  <text x="370" y="150" font-family="sans-serif" font-size="16" font-weight="700" fill="#334155">☰</text>
+
+  <!-- Marquee Ticker -->
+  <rect x="26" y="168" width="368" height="22" fill="#1e293b"/>
+  <rect x="34" y="172" width="32" height="14" rx="3" fill="#dc2626"/>
+  <text x="50" y="182" font-family="sans-serif" font-size="8" font-weight="800" fill="#ffffff" text-anchor="middle">LIVE</text>
+  <text x="74" y="183" font-family="sans-serif" font-size="9" font-weight="600" fill="#fde68a">🌟 Admissions 2026–27 • Low-Cost Education for SC/ST</text>
+
+  <!-- Hero Content Area -->
+  <g transform="translate(38, 202)">
+    <!-- Admission Pill -->
+    <rect x="0" y="0" width="138" height="20" rx="10" fill="#fef3c7" stroke="#fde68a"/>
+    <text x="69" y="14" font-family="sans-serif" font-size="9" font-weight="800" fill="#92400e" text-anchor="middle">ADMISSIONS 2026–27</text>
+
+    <!-- Hero Title -->
+    <text x="0" y="38" font-family="sans-serif" font-size="16" font-weight="900" fill="#0f172a">Excellence in Healthcare.</text>
+    <text x="0" y="56" font-family="sans-serif" font-size="16" font-weight="900" fill="#be123c">Build a Career That Matters.</text>
+
+    <!-- ==================== OPTION 1 REASSURANCE CARD ==================== -->
+    <g transform="translate(0, 68)">
+      <!-- Card Container -->
+      <rect x="0" y="0" width="344" height="295" rx="16" fill="url(#cardBg)" stroke="#fcd34d" stroke-width="1.5"/>
+
+      <!-- Badge row -->
+      <rect x="12" y="12" width="128" height="20" rx="10" fill="#f59e0b"/>
+      <text x="76" y="25" font-family="sans-serif" font-size="8.5" font-weight="800" fill="#ffffff" text-anchor="middle">★ EQUAL OPPORTUNITY</text>
+      <text x="148" y="26" font-family="sans-serif" font-size="9" font-weight="700" fill="#64748b">Serving Society Since 1984</text>
+
+      <!-- Headline -->
+      <text x="12" y="50" font-family="sans-serif" font-size="13" font-weight="900" fill="#0f172a">Education for Everyone.</text>
+      <text x="12" y="66" font-family="sans-serif" font-size="13" font-weight="900" fill="#be123c">Your Dreams Deserve a Chance.</text>
+
+      <!-- Description -->
+      <text x="12" y="86" font-family="sans-serif" font-size="9.5" font-weight="500" fill="#334155">Financial difficulties should never stop a deserving</text>
+      <text x="12" y="99" font-family="sans-serif" font-size="9.5" font-weight="500" fill="#334155">student from higher education. <tspan font-weight="800" fill="#0f172a">Vasantha Group</tspan> is</text>
+      <text x="12" y="112" font-family="sans-serif" font-size="9.5" font-weight="500" fill="#334155">committed to quality accessible education for</text>
+      <text x="12" y="125" font-family="sans-serif" font-size="9.5" font-weight="800" fill="#0f172a">SC/ST communities, tribal and rural backgrounds.</text>
+
+      <!-- Warm Quote Banner -->
+      <rect x="12" y="136" width="320" height="52" rx="8" fill="#ffffff" stroke="#fed7aa" stroke-width="1"/>
+      <rect x="12" y="136" width="4" height="52" rx="2" fill="#ea580c"/>
+      <text x="24" y="152" font-family="sans-serif" font-size="9.2" font-weight="700" font-style="italic" fill="#9a3412">“We don't want financial difficulties to end a</text>
+      <text x="24" y="166" font-family="sans-serif" font-size="9.2" font-weight="700" font-style="italic" fill="#9a3412">student's dreams. Affordable education is the</text>
+      <text x="24" y="179" font-family="sans-serif" font-size="9.2" font-weight="700" font-style="italic" fill="#9a3412">beginning of their success story.”</text>
+
+      <!-- Pills Row -->
+      <rect x="12" y="196" width="94" height="19" rx="9" fill="#dcfce7" stroke="#bbf7d0"/>
+      <text x="59" y="209" font-family="sans-serif" font-size="8" font-weight="800" fill="#15803d" text-anchor="middle">✓ Low-Cost Seats</text>
+
+      <rect x="112" y="196" width="102" height="19" rx="9" fill="#dbeafe" stroke="#bfdbfe"/>
+      <text x="163" y="209" font-family="sans-serif" font-size="8" font-weight="800" fill="#1e40af" text-anchor="middle">✓ SC/ST &amp; Rural Aid</text>
+
+      <rect x="220" y="196" width="112" height="19" rx="9" fill="#f3e8ff" stroke="#e9d5ff"/>
+      <text x="276" y="209" font-family="sans-serif" font-size="8" font-weight="800" fill="#6b21a8" text-anchor="middle">✓ SSP/NSP Schemes</text>
+
+      <!-- Primary Action Button -->
+      <rect x="12" y="225" width="320" height="38" rx="12" fill="url(#btnGrad)"/>
+      <text x="172" y="249" font-family="sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">Enquire for Financial Assistance ➔</text>
+
+      <!-- Callout subtext -->
+      <text x="172" y="280" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#b45309" text-anchor="middle">📞 Instant Counseling Helpdesk: 9512592211</text>
+    </g>
+
+    <!-- Course Preview Section Behind -->
+    <g transform="translate(0, 380)">
+      <text x="0" y="14" font-family="sans-serif" font-size="10" font-weight="800" fill="#be123c">ACADEMIC DISCIPLINES</text>
+      <text x="0" y="32" font-family="sans-serif" font-size="14" font-weight="900" fill="#0f172a">Academic Programs (8)</text>
+
+      <!-- Mini Course Card -->
+      <rect x="0" y="44" width="344" height="54" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+      <rect x="8" y="52" width="38" height="38" rx="8" fill="#fee2e2"/>
+      <text x="27" y="75" font-family="sans-serif" font-size="11" font-weight="900" fill="#be123c" text-anchor="middle">B.Sc</text>
+      <text x="56" y="67" font-family="sans-serif" font-size="11" font-weight="800" fill="#0f172a">B.Sc. Nursing (4 Years Degree)</text>
+      <text x="56" y="81" font-family="sans-serif" font-size="9" font-weight="600" fill="#15803d">✓ Low-Cost &amp; Financial Aid Eligible</text>
+      <text x="326" y="75" font-family="sans-serif" font-size="12" font-weight="800" fill="#94a3b8">➔</text>
+    </g>
+  </g>
+
+  <!-- Phone Home Bar -->
+  <rect x="150" y="746" width="120" height="4" rx="2" fill="#94a3b8"/>
+</svg>

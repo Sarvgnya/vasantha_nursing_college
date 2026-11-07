@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 780" width="100%" height="100%">
+  <defs>
+    <filter id="shadowC" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="checkerCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="btnGradC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="420" height="780" fill="#f1f5f9"/>
+
+  <!-- Design Title Header -->
+  <text x="210" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#be123c" text-anchor="middle" letter-spacing="1">NEW DESIGN C</text>
+  <text x="210" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="middle">Interactive 1-Tap Aid Eligibility Checker</text>
+
+  <!-- Phone Mockup Body -->
+  <rect x="22" y="70" width="376" height="690" rx="36" fill="#ffffff" stroke="#1e293b" stroke-width="8" filter="url(#shadowC)"/>
+
+  <!-- Phone Speaker Notch -->
+  <rect x="150" y="74" width="120" height="16" rx="8" fill="#1e293b"/>
+  <circle cx="170" cy="82" r="3" fill="#334155"/>
+  <rect x="185" y="80" width="50" height="4" rx="2" fill="#334155"/>
+
+  <!-- Top Announcement Bar -->
+  <rect x="26" y="98" width="368" height="24" fill="#0f172a"/>
+  <text x="38" y="114" font-family="sans-serif" font-size="10" font-weight="700" fill="#fbbf24">ESTD. 1984</text>
+  <text x="382" y="114" font-family="sans-serif" font-size="10" font-weight="600" fill="#e2e8f0" text-anchor="end">Helpline: 9512592211</text>
+
+  <!-- Mobile Header Navbar -->
+  <rect x="26" y="122" width="368" height="46" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="50" cy="145" r="14" fill="#fee2e2"/>
+  <text x="50" y="150" font-family="sans-serif" font-size="13" font-weight="900" fill="#be123c" text-anchor="middle">V</text>
+  <text x="72" y="141" font-family="sans-serif" font-size="11" font-weight="800" fill="#0f172a">VASANTHA GROUP</text>
+  <text x="72" y="153" font-family="sans-serif" font-size="9" font-weight="600" fill="#be123c">Faculty of Health Sciences</text>
+  <rect x="306" y="134" width="46" height="22" rx="11" fill="#be123c"/>
+  <text x="329" y="149" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">Apply</text>
+  <text x="370" y="150" font-family="sans-serif" font-size="16" font-weight="700" fill="#334155">☰</text>
+
+  <!-- ==================== INTERACTIVE CHECKER CARD ==================== -->
+  <g transform="translate(36, 185)">
+    <rect x="0" y="0" width="348" height="395" rx="16" fill="url(#checkerCardBg)" stroke="#cbd5e1" stroke-width="1.5"/>
+
+    <!-- Header -->
+    <g transform="translate(16, 20)">
+      <rect x="0" y="0" width="154" height="20" rx="10" fill="#fef3c7"/>
+      <text x="77" y="14" font-family="sans-serif" font-size="8.5" font-weight="800" fill="#92400e" text-anchor="middle">⚡ INSTANT ELIGIBILITY CHECK</text>
+      
+      <text x="0" y="44" font-family="sans-serif" font-size="15" font-weight="900" fill="#0f172a">Education for Everyone.</text>
+      <text x="0" y="62" font-family="sans-serif" font-size="15" font-weight="900" fill="#be123c">Do You Qualify for Financial Aid?</text>
+    </g>
+
+    <!-- Step 1: Select Category -->
+    <g transform="translate(16, 96)">
+      <text x="0" y="0" font-family="sans-serif" font-size="9.5" font-weight="800" fill="#64748b">1. SELECT YOUR BACKGROUND:</text>
+      
+      <!-- Option: SC/ST (Active) -->
+      <rect x="0" y="10" width="100" height="32" rx="8" fill="#be123c" stroke="#be123c"/>
+      <text x="50" y="30" font-family="sans-serif" font-size="10" font-weight="800" fill="#ffffff" text-anchor="middle">✓ SC / ST</text>
+
+      <!-- Option: Rural / Tribal -->
+      <rect x="108" y="10" width="112" height="32" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="164" y="30" font-family="sans-serif" font-size="10" font-weight="700" fill="#334155" text-anchor="middle">Rural / Tribal</text>
+
+      <!-- Option: General / OBC -->
+      <rect x="228" y="10" width="88" height="32" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="272" y="30" font-family="sans-serif" font-size="10" font-weight="700" fill="#334155" text-anchor="middle">OBC / Low-Income</text>
+    </g>
+
+    <!-- Live Result Box -->
+    <g transform="translate(16, 160)">
+      <rect x="0" y="0" width="316" height="135" rx="12" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.5"/>
+
+      <!-- Checkmark badge -->
+      <circle cx="24" cy="24" r="12" fill="#10b981"/>
+      <text x="24" y="29" font-family="sans-serif" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle">✓</text>
+      <text x="46" y="22" font-family="sans-serif" font-size="11.5" font-weight="900" fill="#065f46">Congratulations! You Are Eligible For:</text>
+      <text x="46" y="35" font-family="sans-serif" font-size="9.5" font-weight="700" fill="#047857">Low-Cost Education &amp; Post-Matric Aid</text>
+
+      <!-- Highlights list -->
+      <g transform="translate(16, 48)">
+        <text x="0" y="12" font-family="sans-serif" font-size="9" font-weight="700" fill="#064e3b">• Vasantha Trust Low-Cost Seat Concession</text>
+        <text x="0" y="26" font-family="sans-serif" font-size="9" font-weight="700" fill="#064e3b">• Karnataka SSP &amp; National NSP Scholarship Guidance</text>
+        <text x="0" y="40" font-family="sans-serif" font-size="9" font-weight="700" fill="#064e3b">• Hands-on Clinical Training at Oxylife 50-Bed Hospital</text>
+      </g>
+
+      <!-- Inspiring founder quote -->
+      <g transform="translate(16, 96)">
+        <rect x="0" y="0" width="284" height="28" rx="6" fill="#ffffff" stroke="#6ee7b7"/>
+        <text x="142" y="18" font-family="sans-serif" font-size="8" font-weight="700" font-style="italic" fill="#065f46" text-anchor="middle">“We don't want financial difficulties to end your dreams.”</text>
+      </g>
+    </g>
+
+    <!-- Action Button -->
+    <g transform="translate(16, 312)">
+      <rect x="0" y="0" width="316" height="42" rx="12" fill="url(#btnGradC)"/>
+      <text x="158" y="26" font-family="sans-serif" font-size="11.5" font-weight="800" fill="#ffffff" text-anchor="middle">Claim Your Financial Aid Admission ➔</text>
+    </g>
+
+    <text x="174" y="375" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#64748b" text-anchor="middle">📞 Or Call Nodal Counselor directly at 9512592211</text>
+  </g>
+
+  <!-- Programs peek below -->
+  <g transform="translate(36, 600)">
+    <text x="0" y="16" font-family="sans-serif" font-size="11" font-weight="800" fill="#be123c">ACADEMIC PROGRAMS (8)</text>
+    <rect x="0" y="26" width="348" height="48" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="16" y="54" font-family="sans-serif" font-size="11" font-weight="800" fill="#0f172a">B.Sc. Nursing • D.Pharm • B.Pharm • BPT</text>
+  </g>
+
+  <!-- Phone Home Bar -->
+  <rect x="150" y="746" width="120" height="4" rx="2" fill="#94a3b8"/>
+</svg>
